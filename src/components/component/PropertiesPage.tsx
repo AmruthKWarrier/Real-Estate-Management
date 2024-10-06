@@ -21,6 +21,7 @@ const PropertiesPage = () => {
       <h1 className="text-4xl font-bold mb-8">Our Properties</h1>
       <div className="mb-8 flex">
         <Input
+          id="search"
           type="text"
           placeholder="Search properties..."
           value={searchTerm}
